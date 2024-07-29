@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #000
+}
+  
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+    //background-color: $color-back-1;
+    //overflow: auto;
+
+    @media (max-width: $bp-largest) {
+       font-size: 55%;
+    }
+}
+
+
+body {
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 3rem 0 0 0;
+    font-family: $font-primary;
+    background-color: #fff;
+    color: #222;
+
+    @media (max-width: $bp-medium) {
+        padding-top: 0;
+    }
+}
+
+
+/* Scrollbar Styling 
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: $color-back-1;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: $color-primary; 
+}
+*/
+a:link,
+a:visited {
+    text-decoration: none;
+    color: $color-dark;
+    font-family: $font-primary;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wpml-ls-statics-footer.wpml-ls,
+.otgs-development-site-front-end {
+    display: none !important;
+}
+
+.grecaptcha-badge {
+    visibility: hidden !important;
+  }

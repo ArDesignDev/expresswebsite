@@ -1,0 +1,19 @@
+Droge - custom post type + custom taxnomoy:
+- Vrste drog - droge ++
+- Zmanjšanje tveganj - risk ++
+- Zdravstveni zapleti - complications
+- Zakonodaja - legislation ++
+- Miti o drogah - myths
+
+O nas
+-- navadne strani
+- O združenju
+- Koncept zmanjšanja škode
+- Sodeluj z nami
+-- custom post type
+- Ekipa
+- Programi in projekti
+- Knjižnica
+
+
+

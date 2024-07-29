@@ -1,0 +1,49 @@
+// MAIN COLORS
+$color-primary: #4545e6; // added
+$color-secondary: #ec1b4f;
+
+$color-btn-hover: #e0aca1;
+
+$color-gold: #a79979;
+
+$gray-text: #888a88;
+
+$color-dark: #1e1e1e; // added
+$color-dark-2: #101511;
+$color-dark-light: #fff;
+
+$color-back-1: #fafafa;
+$color-back-2: #4c4c4c;
+
+$gray-border: #8d8d8d;
+$gray-back: #8e9292;
+$gray-links: #818286;
+$gray-form: #707070;
+
+// FONT VARIABLES
+$font-primary:  "DM Sans", sans-serif;
+$font-second: "Space Grotesk", sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 87.5em;  // 1400px
+$bp-large: 70em;  // 1040px
+$bp-medium: 50em;   // 800px
+$bp-small: 37.5em;  // 600px
+
+$bp-medium-min: 48,875em; // 782px;
+
+// OTHER VARIABLES
+$transition: all .4s;
+$shadow-bottom: 0 4px 2px -2px rgba(128, 128, 128, .15);
+$shadow-regular: 1px 6px 9px 3px rgba(0, 0, 0, .4);
+$shadow-regular-hover: 0px 8px 10px 3px rgba(0, 0, 0, .28);
+
+$container-width: 164rem; 
+$container-width-mini: 90rem;
+
+
+$border-radius: 2rem;
+$border-radius-special: 3rem 0 3rem 3rem;
+
+$box-shadow-img: -4px 8px 10px 0 rgba(0, 0, 0, .5);
+$box-shadow-img-2: 5px 4px 10px 0 rgba(0, 0, 0, .5);
